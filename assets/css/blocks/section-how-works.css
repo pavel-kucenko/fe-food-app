@@ -31,4 +31,5 @@
     .section-how-works-title::before {
         top: auto;
         bottom: -50px;
+    }
 }

@@ -5,11 +5,8 @@
 .section-picture-img-wrapper {
     position: relative;
     max-width: 550px;
-    /* max-height: 450px; */
     margin: 0 auto;
-    
-    
-    /* overflow: hidden; */
+
 }
 
 .section-picture-img-wrapper img {
