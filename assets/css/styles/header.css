@@ -1,0 +1,130 @@
+/* font-family: 'Poppins';
+font-family: 'Montserrat'; */
+
+.header {
+    
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 620px;
+    padding: 100px;
+    background-color: rgba(51, 51, 51, 0.5);
+    background-image: url(./../../img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-content-block {
+    max-width: 940px;
+
+    color: #fff;
+    text-align: center;
+}
+
+.header-content-text {
+    margin-bottom: 15px;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+.header-content-text ~ .header-content-text {
+    margin-bottom: 50px;
+}
+
+.header-content-title {
+   margin-bottom: 25px;
+   font-family: 'Poppins';
+   font-weight: 700;
+   font-size: 58px;
+   line-height: 1.4;
+}
+
+.font-weigth {
+    font-weight: 100;
+}
+
+.header-btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.header-btn {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 15px 50px;
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    color: #fff;
+    text-decoration: none;
+
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none !important;
+    transition: .5s;
+}
+
+/* .header-btn:not(:last-child) {
+    margin-right: 35px;
+} */
+
+.btn-orange {
+    background-color: #FA4A0C;
+}
+
+.btn-orange:hover {
+    background-color: #d43c05;
+}
+
+.btn-transparent {
+    border: 1px solid #fff;
+
+}
+
+.btn-transparent:hover {
+    background-color: #333;
+}
+
+@media screen and (max-width: 414px) {
+    .header-content {
+        padding: 90px 10px;
+        background-image: none;
+        background-color: #fff;
+    }
+
+    .header-content-text {
+        font-size: 24px;
+        color: #737373;
+    }
+
+    .header-content-title {
+        font-size: 36px;
+        line-height: 42px;
+        color: #252B42;
+    }
+
+    .header-btn-wrapper {
+        justify-content: center;
+    }
+
+    .font-weigth {
+        font-weight: 500;
+    }
+
+    .btn-transparent {
+        border: 1px solid #FA4A0C;
+        color: #FA4A0C;
+    }
+}
