@@ -1,0 +1,34 @@
+.section-how-works {
+    padding-bottom: 60px;
+}
+
+.section-how-works-title {
+    margin: 0;
+    position: relative;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 44px;
+    color: #000000;
+}
+
+.section-how-works-title::before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+
+    position: absolute;
+    top: -70px;
+    background-color: #E4E4E4;
+}
+
+@media screen and (max-width: 414px) {
+    .section-how-works-title {
+        font-size: 24px;
+    }
+
+    .section-how-works-title::before {
+        top: auto;
+        bottom: -50px;
+}
