@@ -9,13 +9,12 @@ font-family: 'Poppins'; */
 @import url(./blocks/header.css);
 @import url(./blocks/section-picture.css);
 @import url(./blocks/section-how-works.css);
+@import url(./blocks/section-login.css);
+@import url(./blocks/section-varieties.css);
 
 
 * {
     box-sizing: border-box;
-}
-
-body {
     margin: 0;
     padding: 0;
 }
@@ -38,6 +37,56 @@ img {
 
 .container {
     max-width: 1000px;
+}
+
+.section-img-wrapper {
+    max-width: 50%;
+}
+
+.section-content {
+    max-width: 50%;
+    font-family: 'Montserrat';
+}
+
+.section-content-link {
+    display: block;
+    margin-bottom: 15px;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FA4A0C;
+}
+
+.section-content-title {
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 57px;
+    color: #252B42;
+}
+
+.section-content-text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    color: #737373;
+}
+
+@media screen and (max-width: 414px){
+    .section-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .section-img-wrapper {
+        max-width: 100%;
+    }
+
+    .img-translate {
+        transform: translateX(35px);
+    }
 }
 
 
