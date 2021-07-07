@@ -1,0 +1,31 @@
+.section-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 10px;
+    min-height: 520px;
+    background-color: #252B42;
+    background-image: url(./../../img/download-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-download-content {
+    max-width: 850px;
+    text-align: center;
+}
+
+.download-btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 414px) {
+    .section-download {
+        background-image: none;
+    }    
+}

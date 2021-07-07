@@ -11,6 +11,7 @@ font-family: 'Poppins'; */
 @import url(./blocks/section-how-works.css);
 @import url(./blocks/section-login.css);
 @import url(./blocks/section-varieties.css);
+@import url(./blocks/section-download.css);
 
 
 * {
@@ -45,7 +46,6 @@ img {
 
 .section-content {
     max-width: 50%;
-    font-family: 'Montserrat';
 }
 
 .section-content-link {
@@ -59,6 +59,7 @@ img {
 }
 
 .section-content-title {
+    font-family: 'Montserrat';
     margin-bottom: 15px;
     font-style: normal;
     font-weight: 700;
@@ -68,13 +69,87 @@ img {
 }
 
 .section-content-text {
+    font-family: 'Montserrat';
+    margin-bottom: 60px;
     font-weight: 500;
     font-size: 24px;
     line-height: 38px;
     color: #737373;
 }
 
+.btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 15px 50px;
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    color: #fff;
+    text-decoration: none;
+
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none !important;
+    transition: .5s;
+}
+
+.btn-orange {
+    background-color: #FA4A0C;
+}
+
+.btn-orange:hover {
+    background-color: #d43c05;
+}
+
+.btn-transparent {
+    border: 1px solid #fff;
+}
+
+.btn-transparent:hover {
+    background-color: #333;
+}
+
+.cw {
+    color: white;
+}
+
+.download-btn {
+    padding: 18px 30px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.dn-desc {
+    display: none;
+}
+
+
 @media screen and (max-width: 414px){
+    .btn-wrapper {
+        justify-content: center;
+    }
+    
+    .btn-transparent {
+        border: 1px solid #FA4A0C;
+        color: #FA4A0C;
+    }
+
+    .btn-transparent-download {
+        border: 1px solid #fff;
+        color: #fff;
+    }
+
     .section-content {
         max-width: 100%;
         text-align: center;
@@ -86,6 +161,14 @@ img {
 
     .img-translate {
         transform: translateX(35px);
+    }
+
+    .dn {
+        display: none;
+    }
+
+    .db {
+        display: block;
     }
 }
 
