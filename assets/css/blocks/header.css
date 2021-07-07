@@ -1,10 +1,3 @@
-/* font-family: 'Poppins';
-font-family: 'Montserrat'; */
-
-.header {
-    
-}
-
 .header-content {
     display: flex;
     justify-content: center;
@@ -76,10 +69,6 @@ font-family: 'Montserrat'; */
     transition: .5s;
 }
 
-/* .header-btn:not(:last-child) {
-    margin-right: 35px;
-} */
-
 .btn-orange {
     background-color: #FA4A0C;
 }
@@ -90,7 +79,6 @@ font-family: 'Montserrat'; */
 
 .btn-transparent {
     border: 1px solid #fff;
-
 }
 
 .btn-transparent:hover {
