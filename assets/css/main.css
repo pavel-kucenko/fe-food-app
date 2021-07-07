@@ -12,6 +12,7 @@ font-family: 'Poppins'; */
 @import url(./blocks/section-login.css);
 @import url(./blocks/section-varieties.css);
 @import url(./blocks/section-download.css);
+@import url(./blocks/footer.css);
 
 
 * {
